@@ -25,7 +25,7 @@ const NavBar = (props) => {
         alignItems: 'center',
         padding: '0em 1.2em'
       }}>
-        <h1 style={{color: "#F1F1F1"}}><NavButton style={{}} to="/" label="Yum" /></h1>
+        <h1 style={{color: "#F1F1F1"}}><NavButton style={{}} to="/" label="Yums" /></h1>
       </div>
         <div style={{
           flex: 1,
@@ -42,17 +42,6 @@ const NavBar = (props) => {
           
           <NavButton style={{}} to="/chuck" label="Chucks" />
           <NavButton style={{}} to="/weather" label="Weather or Not" />
-          {/* {auth.token ? (
-            <Fragment>
-              <NavButton style={{}} to='/address' label="address info" />
-              <NavButton style={{}} to="/profile" label="profile" />
-            </Fragment>
-          ) : (
-            <Fragment>
-              <NavButton style={{}} to="/login" label="login" />
-              <NavButton style={{}} to="/register" label="sign up" />
-            </Fragment>
-          ) } */}
           
         </div>
     </nav> 
