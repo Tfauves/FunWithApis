@@ -12,7 +12,7 @@ const Home = () => {
             textShadow: "0 0 12px #f1f1f1, 0 0 5px #f1f1f1",
             marginTop: "3em",
             textAlign: "center",
-            fontSize: "3em",
+            fontSize: "6em",
             letterSpacing: "33px",
             color: "#303030",
             fontFamily: 'Playball, cursive',

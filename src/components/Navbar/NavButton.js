@@ -10,7 +10,7 @@ const NavButton = (props) => {
     textDecoration: "none",
     fontFamily: "'Exo 2', sans-serif",
     fontSize: "1.35em",
-    color: "#f1f1f1",
+    color: "#303030",
     fontWeight: 600,
     textShadow: "1px 1px black",
     textAlign: "center",

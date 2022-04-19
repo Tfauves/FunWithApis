@@ -10,7 +10,7 @@ const NavBar = (props) => {
   return (
     <nav style={{
       display:'flex',
-      backgroundColor: "#303030",
+      backgroundColor: "#dfdbdb",
       position: "fixed",
       width: "100%",
       zIndex: 9999,
@@ -25,7 +25,7 @@ const NavBar = (props) => {
         alignItems: 'center',
         padding: '0em 1.2em'
       }}>
-        <h1 style={{color: "#F1F1F1"}}><NavButton style={{}} to="/" label="Yums" /></h1>
+        <h1 style={{color: "#303030"}}><NavButton style={{}} to="/" label="Yums" /></h1>
       </div>
         <div style={{
           flex: 1,
@@ -42,6 +42,7 @@ const NavBar = (props) => {
           
           <NavButton style={{}} to="/chuck" label="Chucks" />
           <NavButton style={{}} to="/weather" label="Weather or Not" />
+          <NavButton style={{}} to="/coins" label="Cool Coiner" />
           
         </div>
     </nav> 
