@@ -9,11 +9,11 @@ import Splash from "../common/Splash";
 import { Card, InputGroup, FormControl, Button } from "react-bootstrap";
 import cardImg from "../../assets/weatherCard.jpg";
 import splash from "../../assets/weatherSplash.jpg";
+import { weatherApiKey } from "../../config";
 
 const Weather = () => {
   const [weather, setWeather] = useState({});
   const [loading, setLoading] = useState(true);
-  const apiKey = "imperial&appid=11b6f4570321083e0d6d4f0cff727418";
   const [query, setQuery] = useState("02215");
   const [q, setQ] = useState("");
 
@@ -25,7 +25,7 @@ const Weather = () => {
     const getWeather = async () => {
       try {
         const res = await axios.get(
-          `https://api.openweathermap.org/data/2.5/weather?zip=${query},us&units=${apiKey}`
+          `https://api.openweathermap.org/data/2.5/weather?zip=${query},us&units=${weatherApiKey}`
         );
         console.log(res.data);
         setLoading(false);
