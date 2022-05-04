@@ -1,1 +1,7 @@
-A wonderland of api fun to practice api consumption with react
+
+# Fun With APIs
+> A wonderland of API fun 
+The application consumes free to use APIs and was built for React practice.
+
+
+
